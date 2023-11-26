@@ -213,11 +213,72 @@
             width: 50%;
             height: 70vh;
             border: 1px solid red;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+            .section2_bottom_left_p1 {
+                width: 90%;
+                font-size: 26px;
+                color: #FFFFFF;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+
+            .section2_bottom_left_p2 {
+                width: 85%;
+                font-size: 18px;
+                color: grey;
+                line-height: 25px;
+                letter-spacing: 2px;
+            }
+
+            .section2_bottom_left_p3 {
+                width: 85%;
+                font-size: 18px;
+                color: grey;
+                line-height: 25px;
+                letter-spacing: 2px;
+            }
+
+            .section2_bottom_left_p4 {
+                width: 85%;
+                font-size: 18px;
+                color: grey;
+                line-height: 25px;
+                letter-spacing: 2px;
+            }
+
+            .section2_bottom_right_btns {
+                .section2_bottom_right_btn1 {
+                    width: 150px;
+                    height: 55px;
+                    color: #FFFFFF;
+                    background-color: rgb(139, 126, 126);
+                    border-radius: 12px;
+                    border: 1px solid white;
+                    font-size: 18px;
+                }
+
+                .section2_bottom_right_btn2 {
+                    width: 150px;
+                    height: 55px;
+                    color: #FFFFFF;
+                    background-color: transparent;
+                    border-radius: 12px;
+                    font-size: 18px;
+                    border: none;
+                }
+            }
+
         }
 
         .section2_bottom_right {
             width: 50%;
             height: 70vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             border: 1px solid red;
         }
     }
