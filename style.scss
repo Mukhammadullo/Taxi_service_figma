@@ -150,6 +150,7 @@
 // section2
 .section2 {
     background-image: url("/img/Rectangle\ 62\ \(1\).svg");
+    background-color: rgb(64, 60, 60);
     height: 140vh;
 
     .section2_top {
@@ -174,6 +175,27 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+
+            h2 {
+                font-size: 36px;
+                letter-spacing: 5px;
+                color: #FFFFFF;
+                margin-bottom: 20px;
+            }
+
+            .section2_top_right_p1 {
+                width: 60%;
+                font-size: 18px;
+                line-height: 26px;
+                color: #FFFFFF;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            .section2_top_right_p2{
+                width: 60%;
+                font-size: 16px;
+                color: grey;
+                font-size: 18px;    
+            }
         }
     }
 }
