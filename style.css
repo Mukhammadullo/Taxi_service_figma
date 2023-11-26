@@ -119,7 +119,11 @@
 .section2 {
   background-image: url("/img/Rectangle 62 (1).svg");
   background-color: rgb(64, 60, 60);
-  height: 140vh;
+  height: 165vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 .section2 .section2_top {
   display: flex;
@@ -160,4 +164,17 @@
   font-size: 16px;
   color: grey;
   font-size: 18px;
+}
+.section2 .section2_bottom {
+  display: flex;
+}
+.section2 .section2_bottom .section2_bottom_left {
+  width: 50%;
+  height: 70vh;
+  border: 1px solid red;
+}
+.section2 .section2_bottom .section2_bottom_right {
+  width: 50%;
+  height: 70vh;
+  border: 1px solid red;
 }/*# sourceMappingURL=style.css.map */
