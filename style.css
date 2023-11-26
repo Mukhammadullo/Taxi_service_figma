@@ -1,1 +1,17 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+  height: 10vh;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header_card2 ul {
+  display: flex;
+  list-style: none;
+}/*# sourceMappingURL=style.css.map */
