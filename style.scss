@@ -42,23 +42,33 @@
 
 // meadia_header
 @media (max-width:400px) {
-    .header_card1 {
-        .logo {
-            width: 70%;
-            height: 10vh;
+    .header {
+        .header_card1 {
+            .logo {
+                width: 70%;
+                height: 10vh;
+            }
         }
-    }
 
-    .header_card2 {
-        display: none;
-    }
+        .header_card2 {
+            display: none;
+        }
 
-    .header_card3 {
-        display: none;
-    }
+        .header_card3 {
+            display: none;
+        }
 
-    .header_card4 {
-        display: block;
+        .header_card4 {
+            width: 30px;
+            height: 30px;
+            border-radius: 15px;
+            background-color: rgb(49, 45, 45);
+            display: inline-block;
+            color: #FFFFFF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     }
 }
 
@@ -115,21 +125,55 @@
 @media (max-width:400px) {
     .section1 {
         width: 100%;
-        height: 100vh;
+        height: 80vh;
         background-position: center;
         background-size: cover;
         background-image: url("/img/img1.svg");
-    
-    .section1_title{
-        font-size: 22px;
-        line-height: 25px;
-    }
-    .section1_txt{
-        font-size: 14px;
-        text-align: center;
-    }
-    .section1_btn2{
-        display: none;
+
+        .section1_title {
+            font-size: 22px;
+            line-height: 25px;
+        }
+
+        .section1_txt {
+            font-size: 14px;
+            text-align: center;
+        }
+
+        .section1_btn2 {
+            display: none;
+        }
     }
 }
+
+
+// section2
+.section2 {
+    background-image: url("/img/Rectangle\ 62\ \(1\).svg");
+    height: 140vh;
+
+    .section2_top {
+        display: flex;
+
+        .section2_top_left {
+            width: 50%;
+            height: 70vh;
+            border: 1px solid red;
+
+            .iphone {
+                width: 100%;
+                height: 70vh;
+            }
+        }
+
+        .section2_top_right {
+            width: 50%;
+            height: 70vh;
+            border: 1px solid red;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
 }
