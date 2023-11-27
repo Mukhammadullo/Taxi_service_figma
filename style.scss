@@ -668,13 +668,47 @@
             .section6_left_p1 {
                 font-size: 18px;
             }
-            .section6_left_p2{
+
+            .section6_left_p2 {
                 font-size: 18px;
             }
         }
 
         .section6_right {
             width: 100%;
+        }
+    }
+
+}
+
+// section7
+.section7 {
+    width: 100%;
+    height: 20vh;
+    border: 1px solid red;
+    background-image: url("/img/section7.svg");
+    background-size: cover;
+    background-color: #00000085;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        font-size: 36px;
+        letter-spacing: 2px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+    }
+}
+
+@media (max-width:400px) {
+    .section7 {
+        height: 25vh;
+
+        p {
+            width: 80%;
+            font-size: 28px;
+            text-align: center;
         }
     }
 }

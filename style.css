@@ -547,4 +547,32 @@
   .section6 .section6_right {
     width: 100%;
   }
+}
+.section7 {
+  width: 100%;
+  height: 20vh;
+  border: 1px solid red;
+  background-image: url("/img/section7.svg");
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5215686275);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section7 p {
+  font-size: 36px;
+  letter-spacing: 2px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+}
+
+@media (max-width: 400px) {
+  .section7 {
+    height: 25vh;
+  }
+  .section7 p {
+    width: 80%;
+    font-size: 28px;
+    text-align: center;
+  }
 }/*# sourceMappingURL=style.css.map */
