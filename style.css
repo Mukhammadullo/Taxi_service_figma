@@ -136,7 +136,6 @@
 .section2 .section2_top .section2_top_left {
   width: 50%;
   height: 70vh;
-  border: 1px solid red;
 }
 .section2 .section2_top .section2_top_left .iphone {
   width: 100%;
@@ -145,7 +144,6 @@
 .section2 .section2_top .section2_top_right {
   width: 50%;
   height: 70vh;
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -191,7 +189,6 @@
 .section2 .section2_bottom .section2_bottom_left {
   width: 50%;
   height: 70vh;
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -248,7 +245,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
 }
 @media (max-width: 400px) {
   .section2 .section2_bottom {
@@ -278,7 +274,6 @@
 .section3 {
   width: 100%;
   height: 120vh;
-  border: 1px solid red;
   background-image: url("/img/section3.svg");
   background-size: cover;
   background-color: rgba(7, 7, 7, 0.512);
@@ -287,7 +282,6 @@
 .section4 {
   width: 100%;
   height: 100vh;
-  border: 2px solid black;
   background-image: url("/img/section4.svg");
   display: flex;
   flex-direction: column;
@@ -304,7 +298,6 @@
 .section4 .section4_card {
   width: 80%;
   height: 60vh;
-  border: 1px solid red;
   display: flex;
   background-color: rgba(7, 7, 7, 0.512);
   border-radius: 20px;
@@ -312,7 +305,6 @@
 .section4 .section4_card .section4_card_left {
   width: 50%;
   height: 60vh;
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -329,7 +321,6 @@
 .section4 .section4_card .section4_card_right {
   width: 50%;
   height: 60vh;
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -399,12 +390,10 @@
   width: 100%;
   display: flex;
   height: 70vh;
-  border: 1px solid red;
 }
 .section5 .section5_card .section5_card_left {
   width: 50%;
   height: 70vh;
-  border: 2px solid blue;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -413,7 +402,6 @@
 .section5 .section5_card .section5_card_right {
   width: 50%;
   height: 70vh;
-  border: 2px solid green;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -422,7 +410,6 @@
 .section5 .section5_card .section5_card_right .section5_card_right_inner {
   width: 100%;
   height: 30vh;
-  border: 2px solid green;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -468,7 +455,6 @@
 .section6 {
   width: 100%;
   height: 50vh;
-  border: 1px solid red;
   background-image: url("/img/section6.svg");
   background-color: rgba(5, 3, 3, 0.6);
   background-size: cover;
@@ -477,7 +463,6 @@
 .section6 .section6_left {
   width: 50%;
   height: 50vh;
-  border: 2px solid rebeccapurple;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -497,7 +482,6 @@
 .section6 .section6_right {
   width: 50%;
   height: 50vh;
-  border: 1px solid rebeccapurple;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -551,7 +535,6 @@
 .section7 {
   width: 100%;
   height: 20vh;
-  border: 1px solid red;
   background-image: url("/img/section7.svg");
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.7137254902);
@@ -643,7 +626,7 @@
 }
 .section10 {
   width: 100%;
-  height: 60vh;
+  height: 40vh;
   background-color: black;
 }
 .section10 .section10-top {
@@ -651,12 +634,11 @@
 }
 .section10 .section10-top .section10_top_left {
   width: 50%;
-  height: 30vh;
-  border: 1px solid red;
+  height: 20vh;
 }
 .section10 .section10-top .section10_top_left ul {
   width: 100%;
-  height: 30vh;
+  height: 20vh;
   justify-content: space-around;
   align-items: center;
   display: flex;
@@ -667,8 +649,7 @@
 }
 .section10 .section10-top .section10_top_right {
   width: 50%;
-  height: 30vh;
-  border: 1px solid red;
+  height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -678,7 +659,7 @@
 }
 .section10 .section10_bottom .section10_bottom_left {
   width: 50%;
-  height: 30vh;
+  height: 20vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -689,7 +670,7 @@
 }
 .section10 .section10_bottom .section10_bottom_right {
   width: 50%;
-  height: 30vh;
+  height: 20vh;
   display: flex;
   justify-content: space-around;
   align-items: center;

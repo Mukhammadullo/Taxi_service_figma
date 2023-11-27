@@ -114,7 +114,39 @@
 
         <!-- section3 -->
         <div class="section3">
-            <h1>All Elment from js</h1>
+            <input type="search" placeholder="..name age" class="inpSearch">
+
+            <!-- dialogAdd -->
+            <button class="newUser">+New User</button>
+            <dialog class="dialogAdd">
+                <form action="" class="formAdd">
+                    <input type="text" placeholder="name" name="name" required>
+                    <input type="text" placeholder="age" name="age" required>
+                    <button type="submit">Add</button>
+                </form>
+            </dialog>
+
+            <!-- dialogEdit -->
+            <dialog class="dialogEdit">
+                <form action="" class="formEdit">
+                    <input type="text" name="EditName">
+                    <input type="text" name="EditAge">
+                    <button type="submit">Save</button>
+                </form>
+            </dialog>
+
+            <!-- table -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>name</th>
+                        <th>age</th>
+                        <th>functional</th>
+                    </tr>
+                </thead>
+
+                <tbody class="tbody"></tbody>
+            </table>
         </div>
 
         <!-- section4 -->
@@ -241,7 +273,7 @@
             </div>
 
             <div class="section10_bottom">
-                
+
                 <div class="section10_bottom_left">
                     <p>© 2021 Cleopartner</p>
                     <i class="fa-brands fa-telegram" style="color: #1361e7;"></i>
@@ -259,7 +291,8 @@
     </div>
 
     <!-- js -->
-    <script src="/main.js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/js/main.js" type="module"></script>
 </body>
 
 </html>
