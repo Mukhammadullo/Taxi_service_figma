@@ -554,7 +554,7 @@
   border: 1px solid red;
   background-image: url("/img/section7.svg");
   background-size: cover;
-  background-color: rgba(0, 0, 0, 0.5215686275);
+  background-color: rgba(0, 0, 0, 0.7137254902);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -575,4 +575,10 @@
     font-size: 28px;
     text-align: center;
   }
+}
+.section8 {
+  width: 100%;
+  height: 70vh;
+  background-image: url("/img/section8.svg");
+  background-size: cover;
 }/*# sourceMappingURL=style.css.map */
