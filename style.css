@@ -378,4 +378,59 @@
   .section4 .section4_card .section4_card_right .section4_card_right_p1 {
     font-size: 16px;
   }
+}
+.section5 {
+  width: 100%;
+  height: 100vh;
+  background-image: url("/img/section5_bg.svg");
+  background-color: rgba(0, 0, 0, 0.4784313725);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.section5 .section5_title {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 2px;
+  font-size: 48px;
+}
+.section5 .section5_card {
+  width: 100%;
+  display: flex;
+  height: 70vh;
+  border: 1px solid red;
+}
+.section5 .section5_card .section5_card_left {
+  width: 50%;
+  height: 70vh;
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section5 .section5_card .section5_card_right {
+  width: 50%;
+  height: 70vh;
+  border: 2px solid green;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.section5 .section5_card .section5_card_right .section5_card_right_inner {
+  width: 100%;
+  height: 30vh;
+  border: 2px solid green;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.section5 .section5_card .section5_card_right .section5_card_right_inner p {
+  width: 55%;
+  color: white;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }/*# sourceMappingURL=style.css.map */
