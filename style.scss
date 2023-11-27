@@ -436,4 +436,42 @@
             }
         }
     }
+
+
+}
+
+@media (max-width:400px) {
+    .section4 {
+        height: 200vh;
+
+        .section4_title {
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .section4_card {
+            width: 95%;
+            height: 140vh;
+            display: flex;
+            flex-direction: column;
+
+            .section4_card_left {
+                width: 100%;
+                height: 70vh;
+
+                .section4_card_btns {
+                    display: none;
+                }
+            }
+
+            .section4_card_right {
+                width: 100%;
+                height: 70vh;
+
+                .section4_card_right_p1 {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
 }
